@@ -49,6 +49,10 @@ div {
     margin: 10px;
 }
 
+.hero-container .hero-text-container button {
+    margin: 10px;;
+}
+
 .hero-image-container {
     display: flex;
     justify-content: center;
@@ -60,18 +64,36 @@ div {
     width: 300px;
 }
 
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
 .boxes {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 30px;
 }
 
-.boxes .ilustration{
+.box-container{
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxes p {
+    text-align: center;
+}
+.illustration {
     border: 2px solid blue;
     border-radius: 10px;
-    width: 75px;
-    height: 75px;
+    width: 90px;
+    height: 90px;
 }
 
 .quote-container {
